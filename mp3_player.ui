@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>750</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                    stop:0 #1e1e2e, stop:1 #0d1117);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="lbl_Time">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>390</y>
+      <width>191</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #94a3b8;
+                font-size: 14px;</string>
+    </property>
+    <property name="text">
+     <string>00:00  /  00:00</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_Volume">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>550</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #e2e8f0; font-size: 16px;</string>
+    </property>
+    <property name="text">
+     <string>🔊</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Forward">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>480</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+                background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                    stop:0 #6366f1, stop:1 #4f46e5);
+                color: white;
+                border: none;
+                border-radius: 25px;
+                font-size: 20px;
+                font-weight: bold;
+                min-width: 50px;
+                min-height: 50px;
+            }
+            QPushButton:hover {
+                background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                    stop:0 #7c3aed, stop:1 #6d28d9);
+            }
+            QPushButton:pressed {
+                background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                    stop:0 #5b21b6, stop:1 #4c1d95);
+            }</string>
+    </property>
+    <property name="text">
+     <string>⏭</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_Name">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>320</y>
+      <width>381</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">   color: #e2e8f0;
+                font-size: 16px;
+                font-weight: bold;
+                margin: 15px 0;</string>
+    </property>
+    <property name="text">
+     <string>재생할 곡을 선택하세요</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_Music">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>10</y>
+      <width>300</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 3px solid #6366f1;
+                border-radius: 20px;
+                background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                    stop:0 #4c1d95, stop:1 #7c3aed);
+                color: white;
+                font-size: 24px;</string>
+    </property>
+    <property name="text">
+     <string>🎵
+ Play Music</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>399</x>
+      <y>-30</y>
+      <width>350</width>
+      <height>700</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> QWidget {
+                background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                    stop:0 #2d3748, stop:1 #1a202c);
+                border-left: 2px solid #4a5568;
+            }</string>
+    </property>
+    <widget class="QLabel" name="lbl_Title">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">  QLabel {
+                color: #ffffff;
+                font-size: 20px;
+}</string>
+     </property>
+     <property name="text">
+      <string>𝓹𝓵𝓪𝔂𝓵𝓲𝓼𝓽</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="lbl_Exit">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>40</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+                background: rgba(239, 68, 68, 0.8);
+                color: white;
+                border: none;
+                border-radius: 15px;
+                font-size: 16px;
+                font-weight: bold;
+            }
+            QPushButton:hover {
+                background: rgba(220, 38, 38, 1);
+            }</string>
+     </property>
+     <property name="text">
+      <string>✕</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_List">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>90</y>
+       <width>301</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">  QLabel {
+                color: #6366f1;
+                font-size: 14px;
+                font-weight: bold;
+                padding: 12px;
+                background: rgba(99, 102, 241, 0.15);
+                border-radius: 10px;
+                border: 1px solid rgba(99, 102, 241, 0.3);
+            }</string>
+     </property>
+     <property name="text">
+      <string>&quot;재생 중: 없음</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="listWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>160</y>
+       <width>331</width>
+       <height>461</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QListWidget {
+                background: rgba(45, 55, 72, 0.8);
+                border: 1px solid #4a5568;
+                border-radius: 10px;
+                color: #e2e8f0;
+                font-size: 14px;
+                padding: 5px;
+            }
+            QListWidget::item {
+                padding: 12px;
+                border-bottom: 1px solid #4a5568;
+                border-radius: 6px;
+                margin: 2px;
+            }
+            QListWidget::item:hover {
+                background: rgba(99, 102, 241, 0.3);
+            }
+            QListWidget::item:selected {
+                background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+                    stop:0 #6366f1, stop:1 #8b5cf6);
+                color: white;
+                font-weight: bold;
+            }</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_Info">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>630</y>
+       <width>211</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"> QLabel {
+                color: #9ca3af;
+                font-size: 14px;
+                font-style: italic;
+                padding: 8px;
+            }</string>
+     </property>
+     <property name="text">
+      <string>💡 곡을 더블클릭하여 재생</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_delete">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>630</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+                background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+                    stop:0 #f54242, stop:1 #f54242);
+                color: white;
+                border: none;
+                border-radius: 20px;
+                padding: 10px 20px;
+                font-size: 14px;
+                font-weight: bold;
+            }
+            QPushButton:hover {
+                background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+                    stop:0 #f54242, stop:1 #f54242);
+            }</string>
+     </property>
+     <property name="text">
+      <string>삭제</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="btn_List">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>600</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+                background: rgba(55, 65, 81, 0.8);
+                color: #e2e8f0;
+                border: 1px solid #4b5563;
+                border-radius: 20px;
+                padding: 10px 20px;
+                font-size: 14px;
+                font-weight: bold;
+            }
+            QPushButton:hover {
+                background: rgba(99, 102, 241, 0.5);
+                border-color: #6366f1;
+}</string>
+    </property>
+    <property name="text">
+     <string>📋 목록</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Play">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>470</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+                background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                    stop:0 #6366f1, stop:1 #4f46e5);
+                color: white;
+                border: none;
+                border-radius: 25px;
+                font-size: 20px;
+                font-weight: bold;
+                min-width: 50px;
+                min-height: 50px;
+            }
+            QPushButton:hover {
+                background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                    stop:0 #7c3aed, stop:1 #6d28d9);
+            }
+            QPushButton:pressed {
+                background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                    stop:0 #5b21b6, stop:1 #4c1d95);
+            }
+  QPushButton {
+                min-width: 60px;
+                min-height: 60px;
+                font-size: 24px;
+            }</string>
+    </property>
+    <property name="text">
+     <string>▶</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Add">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>600</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+                background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+                    stop:0 #059669, stop:1 #10b981);
+                color: white;
+                border: none;
+                border-radius: 20px;
+                padding: 10px 20px;
+                font-size: 14px;
+                font-weight: bold;
+            }
+            QPushButton:hover {
+                background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+                    stop:0 #047857, stop:1 #059669);
+            }</string>
+    </property>
+    <property name="text">
+     <string>📁 추가</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Past">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>480</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> QPushButton {
+                background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                    stop:0 #6366f1, stop:1 #4f46e5);
+                color: white;
+                border: none;
+                border-radius: 25px;
+                font-size: 20px;
+                font-weight: bold;
+                min-width: 50px;
+                min-height: 50px;
+            }
+QPushButton:hover {
+                background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                    stop:0 #7c3aed, stop:1 #6d28d9);
+            }
+QPushButton:pressed {
+                background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                    stop:0 #5b21b6, stop:1 #4c1d95);
+            }
+ </string>
+    </property>
+    <property name="text">
+     <string>⏮</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="Slider_Mus">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>430</y>
+      <width>351</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">   QSlider::groove:horizontal {
+                border: 1px solid #374151;
+                height: 8px;
+                background: #374151;
+                border-radius: 4px;
+            }
+            QSlider::handle:horizontal {
+                background: #6366f1;
+                border: 1px solid #4f46e5;
+                width: 18px;
+                margin: -5px 0;
+                border-radius: 9px;
+            }
+            QSlider::sub-page:horizontal {
+                background: #6366f1;
+                border-radius: 4px;
+            }</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QSlider" name="Slider_Vol">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>550</y>
+      <width>331</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> QSlider::groove:horizontal {
+                border: 1px solid #374151;
+                height: 6px;
+                background: #374151;
+                border-radius: 3px;
+            }
+            QSlider::handle:horizontal {
+                background: #10b981;
+                border: 1px solid #059669;
+                width: 16px;
+                margin: -5px 0;
+                border-radius: 8px;
+            }
+            QSlider::sub-page:horizontal {
+                background: #10b981;
+                border-radius: 3px;
+            }</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Down">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>600</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+                background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+                    stop:0 #34c3eb, stop:1 #34c3eb);
+                color: white;
+                border: none;
+                border-radius: 20px;
+                padding: 10px 20px;
+                font-size: 14px;
+                font-weight: bold;
+            }
+            QPushButton:hover {
+                background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+                    stop:0 #34c3eb, stop:1#34c3eb);
+            }</string>
+    </property>
+    <property name="text">
+     <string>📥 다운로드</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>750</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
