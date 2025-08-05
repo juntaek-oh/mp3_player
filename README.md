@@ -8,12 +8,8 @@
 <img width="748" height="704" alt="image" src="https://github.com/user-attachments/assets/90a8fc35-8073-4f4b-8938-0bf9354577c7" />
 
 ### YouTube 검색 다이얼로그
-![YouTube 검색](./screenshots/search_dialog.png)
-*YouTube에서 음악 검색 및 다운로드*
+<img width="696" height="527" alt="image" src="https://github.com/user-attachments/assets/156b0cdc-346e-4fa6-8f75-d8bd790d67ec" />
 
-### 플레이리스트 화면
-![플레이리스트](./screenshots/playlist.png)
-*음악 목록 관리 화면*
 
 ## ✨ 주요 기능
 
@@ -68,31 +64,6 @@ python main.py
 ### mp3_player.ui
 - PyQt5 Designer로 제작된 UI 레이아웃 파일
 - 플레이어 인터페이스 및 플레이리스트 디자인
-
-## 📸 스크린샷 촬영 가이드
-
-README에 이미지를 추가하려면 다음 스크린샷들을 촬영해주세요:
-
-### 1. 메인 플레이어 화면 (`main_player.png`)
-- 프로그램 실행 후 메인 화면
-- 음악이 재생 중인 상태로 캡처
-- 앨범 아트, 재생 버튼, 슬라이더가 모두 보이도록
-
-### 2. YouTube 검색 화면 (`search_dialog.png`)  
-- "📥 다운로드" 버튼 클릭 후 나오는 검색 창
-- 검색 결과가 표시된 상태로 캡처
-- 검색어는 "아이유 미인" 같은 예시 사용
-
-### 3. 플레이리스트 화면 (`playlist.png`)
-- "📋 목록" 버튼을 눌러 플레이리스트가 펼쳐진 상태
-- 여러 곡이 목록에 있는 상태로 캡처
-- 현재 재생 중인 곡이 하이라이트된 모습
-
-**촬영 팁:**
-- 화면 해상도를 적당히 조절 (너무 크지 않게)
-- PNG 형식으로 저장
-- 파일명은 위의 이름 그대로 사용
-- `screenshots/` 폴더에 저장
 
 ## 🎯 사용 방법
 
