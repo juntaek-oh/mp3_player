@@ -5,8 +5,7 @@
 ## 📸 스크린샷
 
 ### 메인 플레이어 화면
-![메인 플레이어](./screenshots/main_player.png)
-*음악 재생 및 컨트롤 화면*
+<img width="748" height="704" alt="image" src="https://github.com/user-attachments/assets/90a8fc35-8073-4f4b-8938-0bf9354577c7" />
 
 ### YouTube 검색 다이얼로그
 ![YouTube 검색](./screenshots/search_dialog.png)
@@ -49,11 +48,7 @@ MP3_Player/
 ├── mp3_player.ui          # UI 파일
 ├── images/
 │   └── music.jpg          # 기본 앨범 아트 이미지
-├── screenshots/           # README용 스크린샷 (선택사항)
-│   ├── main_player.png
-│   ├── search_dialog.png
-│   └── playlist.png
-└── README.md
+
 ```
 
 ### 4. 실행
