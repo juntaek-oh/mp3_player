@@ -13,6 +13,7 @@
 ### YouTube 검색 다이얼로그
 ![mp3_player(python) (online-video-cutter com) (1)](https://github.com/user-attachments/assets/ad299d60-8027-4985-96f3-8e2984e808aa)
 
+
 </td>
 </tr>
 </table>
@@ -21,8 +22,10 @@
 <table>
 <tr>
 <td width="100%">
+    
 ### 버튼 기능
-![mp3\_player(python) (online-video-cutter com) (2)](https://github.com/user-attachments/assets/9df2f92a-26a7-4426-94b2-ab146ed478b7 "width=100%")
+![mp3_player(python) (online-video-cutter com) (2)](https://github.com/user-attachments/assets/f253b073-7b0f-4b0a-88d0-651a5270fba5 "width=100%")
+
 </td>
 </tr>
 </table>
