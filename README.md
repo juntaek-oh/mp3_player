@@ -5,13 +5,21 @@
 <td width="50%">
 
 ### YouTube 검색 다이얼로그
-![mp3_player(python) (3)](https://github.com/user-attachments/assets/44adff76-906c-48dc-88ef-e3000b58a89e)
+
+
+https://github.com/user-attachments/assets/fd242ba0-8853-4dda-9e59-caf31d61abd5
+
+
 
 </td>
 <td width="50%">
 
 ### 플레이리스트 관리
-![mp3_player(python) (2)](https://github.com/user-attachments/assets/a5091829-f15e-4c01-b960-affdde3ebd52)
+
+
+
+https://github.com/user-attachments/assets/a36d8de1-babb-4d7a-b8e1-9e063ff889e6
+
 
 
 </td>
