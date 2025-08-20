@@ -18,8 +18,19 @@
 </table>
 
 
+<table>
+<tr>
+<td>
+### 버튼 기능
+</td>
+</tr>
+</table>
 
-![mp3_player(python) (online-video-cutter com) (2)](https://github.com/user-attachments/assets/0ebc481d-e8e3-4c07-9dd0-58da42527e88)
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/9df2f92a-26a7-4426-94b2-ab146ed478b7" style="max-width:100%;">
+</div>
+
+
 
 
 
