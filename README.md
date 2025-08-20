@@ -4,17 +4,31 @@
 <tr>
 <td width="50%">
 
-### YouTube 검색 다이얼로그
+### 메인 플레이어 인터페이스
+![mp3_player(python) (online-video-cutter com)](https://github.com/user-attachments/assets/a9d604ac-e472-4636-9335-395381e70cad)
 
-![mp3_player(python) (3)](https://github.com/user-attachments/assets/afdf1dad-74fd-4408-bf21-504f3ae48246)
 </td>
 <td width="50%">
+    
+### YouTube 검색 다이얼로그
+![mp3_player(python) (online-video-cutter com) (1)](https://github.com/user-attachments/assets/ad299d60-8027-4985-96f3-8e2984e808aa)
 
-### 플레이리스트 관리
-![mp3_player(python) (2)](https://github.com/user-attachments/assets/8746c256-bc07-4712-86d9-80a025b3a23c)
 </td>
 </tr>
 </table>
+
+<table>
+<tr>
+<td width="100%">
+
+### 버튼 기능
+![mp3_player(python) (online-video-cutter com) (2)](https://github.com/user-attachments/assets/9df2f92a-26a7-4426-94b2-ab146ed478b7)
+
+</td>
+</tr>
+</table>
+
+
 
 <div align="center">
 
