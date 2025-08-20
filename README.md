@@ -1,19 +1,6 @@
 # 🎵 YouTube MP3 플레이어 시스템
 
 
-<table>
-<tr>
-<td width="100%">
-    
-### 버튼 기능
-<img src="https://github.com/user-attachments/assets/9df2f92a-26a7-4426-94b2-ab146ed478b7" width="100%">
-</td>
-</tr>
-</table>
-
-
-
-
 
 <table>
 <tr>
@@ -29,6 +16,11 @@
 </td>
 </tr>
 </table>
+
+
+
+![mp3_player(python) (online-video-cutter com) (2)](https://github.com/user-attachments/assets/0ebc481d-e8e3-4c07-9dd0-58da42527e88)
+
 
 
 
