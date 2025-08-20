@@ -6,22 +6,12 @@
 
 ### YouTube 검색 다이얼로그
 
-
-https://github.com/user-attachments/assets/fd242ba0-8853-4dda-9e59-caf31d61abd5
-
-
-
+![mp3_player(python) (3)](https://github.com/user-attachments/assets/afdf1dad-74fd-4408-bf21-504f3ae48246)
 </td>
 <td width="50%">
 
 ### 플레이리스트 관리
-
-
-
-https://github.com/user-attachments/assets/a36d8de1-babb-4d7a-b8e1-9e063ff889e6
-
-
-
+![mp3_player(python) (2)](https://github.com/user-attachments/assets/8746c256-bc07-4712-86d9-80a025b3a23c)
 </td>
 </tr>
 </table>
