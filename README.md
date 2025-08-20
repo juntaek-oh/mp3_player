@@ -21,13 +21,12 @@
 <table>
 <tr>
 <td width="100%">
-
 ### 버튼 기능
-![mp3_player(python) (online-video-cutter com) (2)](https://github.com/user-attachments/assets/9df2f92a-26a7-4426-94b2-ab146ed478b7)
-
+![mp3\_player(python) (online-video-cutter com) (2)](https://github.com/user-attachments/assets/9df2f92a-26a7-4426-94b2-ab146ed478b7 "width=100%")
 </td>
 </tr>
 </table>
+
 
 
 
