@@ -19,8 +19,16 @@
 
 
 <div align="center">
+<table>
+<tr>
+<td>
+    
 ### 버튼 기능
-    <img src="https://github.com/user-attachments/assets/9df2f92a-26a7-4426-94b2-ab146ed478b7" style="max-width:100%;">
+<img src="https://github.com/user-attachments/assets/9df2f92a-26a7-4426-94b2-ab146ed478b7" style="max-width:100%;">
+</td>
+</tr>
+</table>
+
 </div>
 
 
